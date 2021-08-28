@@ -210,8 +210,6 @@ App = {
     },
 
     harvestItem: function() {
-        console.log("test 1", $("#originFarmerID").val())
-        console.log("test 2 ", App.metamaskAccountID)
         App.contracts.SupplyChain.deployed().then(function(instance) {
             return instance.harvestItem.sendTransaction(
                 App.upc, 
@@ -319,25 +317,25 @@ App = {
     },
 
     fetchItemBufferOne: function () {
-        App.upc = $('#upc').val();
+        App.upc = parseInt($('#upc').val());
         console.log('upc',App.upc);
 
         App.contracts.SupplyChain.deployed().then(function(instance) {
           return instance.fetchItemBufferOne.call(App.upc);
         }).then(function(result) {
           $("#ftc-item").text(result);
-          console.log('fetchItemBufferOne', result[0]);
+          console.log('fetchItemBufferOne', result);
         }).catch(function(err) {
           console.log(err.message);
         });
     },
 
     fetchItemBufferTwo: function () {
-        App.upc = $('#upc').val();
+        App.upc = parseInt($('#upc').val());
         console.log('upc',App.upc);
                         
         App.contracts.SupplyChain.deployed().then(function(instance) {
-          return instance.fetchItemBufferTwo.sendTransaction(App.upc, {from: App.metamaskAccountID});
+          return instance.fetchItemBufferTwo.call(App.upc);
         }).then(function(result) {
           $("#ftc-item").text(result);
           console.log('fetchItemBufferTwo', result);
@@ -360,7 +358,7 @@ App = {
     addDistributorRole: function () {
 
         App.contracts.DistributorRole.deployed().then(function(instance) {
-            return instance.addDistributor.call($("#distributorID").val(), {from: App.metamaskAccountID});
+            return instance.addDistributor.call($("#distributorID").val());
         }).then(function(result) {
             console.log('Distributor added',result);
         }).catch(function(err) {
@@ -371,7 +369,7 @@ App = {
     addRetailerRole: function () {
 
         App.contracts.RetailerRole.deployed().then(function(instance) {
-            return instance.addRetailer.call($("#retailerID").val(), {from: App.metamaskAccountID});
+            return instance.addRetailer.call($("#retailerID").val());
         }).then(function(result) {
             console.log('Retailer added',result);
         }).catch(function(err) {
@@ -382,7 +380,7 @@ App = {
     addConsumerRole: function () {
 
         App.contracts.ConsumerRole.deployed().then(function(instance) {
-            return instance.addConsumer.call($("#consumerID").val(), {from: App.metamaskAccountID});
+            return instance.addConsumer.call($("#consumerID").val());
         }).then(function(result) {
             console.log('Consumer added',result);
         }).catch(function(err) {
