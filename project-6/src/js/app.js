@@ -219,7 +219,9 @@ App = {
                 App.originFarmLatitude, 
                 App.originFarmLongitude, 
                 App.productNotes,
-                {from: App.metamaskAccountID}
+                {"from": App.metamaskAccountID,
+                 "gas": 4712388,
+                 "gasPrice": 100000000000}
             )
         }).then(function(result) {
             $("#ftc-events").text(result);
