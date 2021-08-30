@@ -12,6 +12,9 @@ The DApp User Interface when running should look like...
 
 ![truffle test](images/ftc_transaction_history.png)
 
+## Project UML diagram
+### Activity
+(UML/Activity Diagram.png)
 
 ## Getting Started
 
