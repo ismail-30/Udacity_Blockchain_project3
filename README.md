@@ -25,6 +25,18 @@ The DApp User Interface when running should look like...
 ### State Diagram
 ![image](UML/State_Diagram.png)
 
+## Project Write up
+### IPFS
+no IPFS used in this project
+
+### Program Versions numbers
+Node version 12.0.0, 
+Truffle  v4.1.14, 
+Solidity 0.4.24
+
+### Migration to Rinkeby Network
+![image](images/migrate_rinkeby.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
