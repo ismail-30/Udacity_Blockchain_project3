@@ -16,6 +16,15 @@ The DApp User Interface when running should look like...
 ### Activity
 ![image](UML/Activity_Diagram.png)
 
+### Class Diagram
+![image](UML/Class_Diagram.png)
+
+### Sequence Diagram
+![image](UML/Sequence_Diagram.png)
+
+### State Diagram
+![image](UML/State_Diagram.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
