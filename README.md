@@ -14,7 +14,7 @@ The DApp User Interface when running should look like...
 
 ## Project UML diagram
 ### Activity
-![image](UML/Activity Diagram.png)
+![image](UML/Activity_Diagram.png)
 
 ## Getting Started
 
