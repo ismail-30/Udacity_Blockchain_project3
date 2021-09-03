@@ -33,9 +33,13 @@ no IPFS used in this project
 Node version 12.0.0, 
 Truffle  v4.1.14, 
 Solidity 0.4.24
+web3 1.2.1
 
 ### Migration to Rinkeby Network
 ![image](images/migrate_rinkeby.png)
+
+### Contract address on the Rinkeby test network (Etherscan):
+https://rinkeby.etherscan.io/address/0x28747dd60b5121d816a1a608f49a17e249fb0896
 
 ## Getting Started
 
