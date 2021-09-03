@@ -2,16 +2,6 @@
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
-The DApp User Interface when running should look like...
-
-![truffle test](images/ftc_product_overview.png)
-
-![truffle test](images/ftc_farm_details.png)
-
-![truffle test](images/ftc_product_details.png)
-
-![truffle test](images/ftc_transaction_history.png)
-
 ## Project UML diagram
 ### Activity
 ![image](UML/Activity_Diagram.png)
@@ -49,14 +39,14 @@ web3 1.2.1
 https://rinkeby.etherscan.io/address/0x28747dd60b5121d816a1a608f49a17e249fb0896
 
 ### Transaction Ids:
-harvestItem: 0x19b68d037f78f624a18eee2ce1b0429c9a847c92d315dd7ab14e86da69000c64
-processItem: 0x8d2eda493ea462dfd84061e162ebbe62582f1cf596c4895bab05ed3a02bb9fc8
-packItem: 0x6fe9bdd29b10068975f825662681dd778a48ba9014c1c2f8e40292265f2ce9d5
-sellItem: 0x6c77af5d37ced1de59c89e789cb66bb182a825f6442de8abc90a9a94062b7c5b
-buyItem: 0x116e7b14af253562c68477fc361ffb6111611963b998106d7b502acd0d1fc0b7
-shipItem: 0x1964d7e7ca7ad13824cd736684ba1733573f5d53904f235e80c7c2977e3ba50d
-receiveItem: 0xf40908cdfd45bd05440c8a1f74da87d59312ac7ae9c6deb8e7c3b67fbbadddf7
-purchaseItem: 0x215072465543d7d871190a91fadee3cc2ac98666d5b9f3d1227aff94ef142d61
+**harvestItem**: 0x19b68d037f78f624a18eee2ce1b0429c9a847c92d315dd7ab14e86da69000c64\
+**processItem**: 0x8d2eda493ea462dfd84061e162ebbe62582f1cf596c4895bab05ed3a02bb9fc8\
+**packItem**: 0x6fe9bdd29b10068975f825662681dd778a48ba9014c1c2f8e40292265f2ce9d5\
+**sellItem**: 0x6c77af5d37ced1de59c89e789cb66bb182a825f6442de8abc90a9a94062b7c5b\
+**buyItem**: 0x116e7b14af253562c68477fc361ffb6111611963b998106d7b502acd0d1fc0b7\
+**shipItem**: 0x1964d7e7ca7ad13824cd736684ba1733573f5d53904f235e80c7c2977e3ba50d\
+**receiveItem**: 0xf40908cdfd45bd05440c8a1f74da87d59312ac7ae9c6deb8e7c3b67fbbadddf7\
+**purchaseItem**: 0x215072465543d7d871190a91fadee3cc2ac98666d5b9f3d1227aff94ef142d61\
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
